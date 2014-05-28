@@ -27,14 +27,13 @@
                     android:text="Frist Name" />
 
                 <EditText
-                    android:id="@+id/editText1"
+                    android:id="@+id/edtFirst"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10" >
 
                     <requestFocus />
                 </EditText>
-
             </TableRow>
 
             <TableRow
@@ -49,11 +48,10 @@
                     android:text="Family Name" />
 
                 <EditText
-                    android:id="@+id/editText2"
+                    android:id="@+id/edtFamily"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10" />
-
             </TableRow>
         </TableLayout>
 
@@ -62,7 +60,7 @@
             android:layout_height="wrap_content" >
 
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/btnOK"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="OK" />
@@ -72,9 +70,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Cancel" />
-
         </LinearLayout>
 
+        <TextView
+            android:id="@+id/txvMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.20"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
     </LinearLayout>
 
 </FrameLayout>
